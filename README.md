@@ -1,18 +1,18 @@
-# 5 maneras de centrar un <div> con CSS!
+# 5 maneras de centrar un 'div' con CSS!
 
 Si justo estás empezando en el mundo de los estilos en CSS, a veces puede resultar un poco complicado. En CSS (y en programación en general) rara vez solo hay una manera de crear algo. Esta guia te enseñará 5 maneras fáciles de centrar un elemento con otro elemento.
 
-Cuando hablamos de elementos en una página, en este ejemplo, vamos a utilizar dos <div>. Uno va a ser el 'elemento padre' y el otro, el 'elemento hijo'.
+Cuando hablamos de elementos en una página, en este ejemplo, vamos a utilizar dos 'div'. Uno va a ser el 'elemento padre' y el otro, el 'elemento hijo'.
 
 
 
-## Centrar un <div> horizontalmente 
+## Centrar un 'div' horizontalmente 
 
 #### 1. Text-align 
 
-Aunque suene raro, la propiedad 'text-align' no solo sirve para centrar texto en una página, también es útil para los <div>.
+Aunque suene raro, la propiedad 'text-align' no solo sirve para centrar texto en una página, también es útil para los 'div'.
 
-Esta propiedad hay que añadirsela al elemento padre, que sería quién contiene el texto o en este caso el <div>. Pero, si solo añadimos esta propiedad por si solo no va a funcionar. Esto se debe a que el elemento secundario, por defecto, debido a la naturaleza de un <div>, abarca el ancho de su elemento padre. Para anular esto, debemos añadir al 'elemento hijo' una propiedad de display: con un valor de inline-block.
+Esta propiedad hay que añadirsela al elemento padre, que sería quién contiene el texto o en este caso el 'div'. Pero, si solo añadimos esta propiedad por si solo no va a funcionar. Esto se debe a que el elemento secundario, por defecto, debido a la naturaleza de un 'div', abarca el ancho de su elemento padre. Para anular esto, debemos añadir al 'elemento hijo' una propiedad de display: con un valor de inline-block.
 
 
 
@@ -100,7 +100,7 @@ Veámos el ejemplo:
 }
 ```
 
-## Centrar un <div> horizontalmente y verticalmente 
+## Centrar un 'div' horizontalmente y verticalmente 
 
 #### 3. Posición relativa 
 
@@ -110,7 +110,7 @@ Podemos hacer esto asignando dos propiedades más: **top** y **left** ambas al v
 
 Nuestro objetivo real es mover el centro de la caja hacia abajo y hacia arriba. Técnicamente podríamos ajustar los porcentajes de nuestros valores **top** y **left** para que sean más precisos, pero hay una forma más eficaz de lograrlo. Podemos usar la propiedad lamada **transform**. Lo que va a hacer esta propiedad es transformar el elemento hijo en relación a si mismo, no en relación al elemento padre. Dicho esto podemos agregar el valor de **translate (-50%, -50%)** a la propiedad **transform**. 
 
-El primer valor entre paréntesis se refiere al moviemiento ascendente/descendente y el segundo para derecha/izquierda. Los porcentajes positivos moverán el elemento hacia abajo o hacia la derecha respectivamente, mientras que los negativos moverán el elemento hacia abajo y hacia la izquierda. El porcentaje en sí mismo se refiere al tamaño del elemento real. En resumen, este valor indica que queremos mover (trasladar) el elemento hacia arriba la mitad de su propia altura y hacia la izquierda la mitad de su propio ancho.
+El primer valor entre paréntesis se refiere al movimiento ascendente/descendente y el segundo para derecha/izquierda. Los porcentajes positivos moverán el elemento hacia abajo o hacia la derecha respectivamente, mientras que los negativos moverán el elemento hacia abajo y hacia la izquierda. El porcentaje en sí mismo se refiere al tamaño del elemento real. En resumen, este valor indica que queremos mover (trasladar) el elemento hacia arriba la mitad de su propia altura y hacia la izquierda la mitad de su propio ancho.
 
 #### HTML
 
