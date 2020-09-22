@@ -289,5 +289,5 @@ http://www.flexboxdefense.com/
 
 
 
-Como mencionamos anteriormente, esta no es una lista completa de todas las formas de centrar un <div>, pero es un buen comienzo donde hay que profundizar!
+Como mencionamos anteriormente, esta no es una lista completa de todas las formas de centrar un 'div', pero es un buen comienzo donde hay que profundizar!
 
